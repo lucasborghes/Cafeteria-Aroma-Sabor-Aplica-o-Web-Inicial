@@ -63,6 +63,6 @@ Lucas Borges Dias
 Estudante de Tecnologia da Informação — UFMS Digital
 Projeto Integrador II
 
-📄 Licença
+## 📄 Licença
 
 Este projeto é de uso estudantil, mas você pode reutilizar o código livremente para fins acadêmicos.
