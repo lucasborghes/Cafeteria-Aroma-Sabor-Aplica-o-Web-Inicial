@@ -13,7 +13,7 @@ VS Code – Editor de código
 
 Git/GitHub – Controle de versão e publicação
 
-📌 Funcionalidades Implementadas
+## 📌 Funcionalidades Implementadas
 
 ✔ Cabeçalho com nome da cafeteria
 ✔ Seção inicial com breve descrição do negócio
@@ -23,20 +23,12 @@ Git/GitHub – Controle de versão e publicação
 ✔ Estilo visual simples e elegante com cores personalizadas
 
 ## 📁 Estrutura do Projeto
-📂 cafeteria-aroma-sabor
+# 📂 cafeteria-aroma-sabor
  ├── 📄 index.html
  ├── 📄 README.md
  └── 📂 assets (opcional futuramente)
 
-#🖼️ Preview da Interface
-
-Adicione aqui uma imagem quando fizer o print da sua tela inicial.
-
-Exemplo:
-
-![Tela inicial da aplicação](link-da-imagem)
-
-##▶️ Como Executar o Projeto
+## ▶️ Como Executar o Projeto
 
 Para executar o projeto localmente:
 
@@ -48,7 +40,7 @@ Clique duas vezes no arquivo
 
 ou arraste-o para o Chrome/Firefox/Edge
 
-##🔧 Melhorias Futuras (Roadmap)
+## 🔧 Melhorias Futuras (Roadmap)
 
  Adicionar sistema de pedidos
  Criar página de cardápio
@@ -57,7 +49,7 @@ ou arraste-o para o Chrome/Firefox/Edge
  Adicionar modo escuro
  Melhorar acessibilidade seguindo WCAG
 
-##👩‍💻 Autor
+## 👩‍💻 Autor
 
 Lucas Borges Dias
 Estudante de Tecnologia da Informação — UFMS Digital
