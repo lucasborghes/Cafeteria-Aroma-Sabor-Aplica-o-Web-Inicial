@@ -51,8 +51,10 @@ ou arraste-o para o Chrome/Firefox/Edge
 
 ## Commit - mudanças feitas no repositório.
 
-Modelei três tabelas relacionais: produtos, pedidos e itens_pedido, seguindo o conteúdo do módulo de bancos de dados da disciplina Projeto Integrador II.
-O script SQL com os comandos CREATE TABLE e INSERT foi versionado com Git e publicado neste repositório com o nome db_cafeteria.sql.
+- Modelei três tabelas relacionais: produtos, pedidos e itens_pedido, seguindo o conteúdo do módulo de bancos de dados da disciplina Projeto Integrador II.
+- O script SQL com os comandos CREATE TABLE e INSERT foi versionado com Git e publicado neste repositório com o nome db_cafeteria.sql.
+- Reestruturadas as tabelas produtos, pedidos e itens_pedido.
+- Atualizadas as inserções e adicionar consulta SQL de exemplo.
  
 
 ## 👩‍💻 Autor
