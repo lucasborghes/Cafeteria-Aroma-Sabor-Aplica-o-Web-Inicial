@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cafeteria Aroma & Sabor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS (framework) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- CSS customizado -->
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: #f8f5f2;
+      color: #3b2b2b;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 4rem 1rem;
+    }
+
+    .hero-title {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #6b5b5b;
+    }
+
+    .btn-primary {
+      background-color: #c57b57;
+      border-color: #c57b57;
+    }
+
+    .btn-primary:hover {
+      background-color: #a8623f;
+      border-color: #a8623f;
+    }
+
+    .tag-pill {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background-color: #f1e2d8;
+      color: #8a5b3b;
+      font-size: 0.8rem;
+      margin-right: 0.25rem;
+    }
+
+    .hero-image-wrapper {
+      text-align: center;
+    }
+
+    .hero-image {
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+    }
+
+    .highlight-box {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+      margin-top: 1.5rem;
+    }
+
+    .highlight-box h6 {
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .footer-mini {
+      font-size: 0.8rem;
+      color: #8c7c7c;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    @media (max-width: 767.98px) {
+      .hero-section {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+      }
+
+      .hero-title {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .hero-subtitle {
+        text-align: center;
+      }
+
+      .hero-buttons {
+        text-align: center;
+      }
+
+      .tag-pill {
+        margin-bottom: 0.25rem;
+      }
+
+      .highlight-box {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Aroma &amp; Sabor</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary btn-sm" href="#pedido">Fazer Pedido</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tela inicial / Hero -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <!-- Texto -->
+        <div class="col-12 col-md-6">
+          <div class="mb-3">
+            <span class="tag-pill">Cafés especiais</span>
+            <span class="tag-pill">Doces artesanais</span>
+          </div>
+
+          <h1 class="hero-title">Cafeteria Aroma &amp; Sabor</h1>
+
+          <p class="hero-subtitle" id="sobre">
+            Uma cafeteria acolhedora no bairro, com cafés selecionados, bolos
+            caseiros e um ambiente perfeito para estudar, trabalhar ou
+            simplesmente desacelerar o dia.
+          </p>
+
+          <div class="hero-buttons mb-3" id="pedido">
+            <a href="#contato" class="btn btn-primary btn-lg me-2">
+              Fazer Pedido
+            </a>
+            <a href="#contato" class="btn btn-outline-secondary btn-lg">
+              Contato
+            </a>
+          </div>
+
+          <div class="highlight-box">
+            <h6>Por que nos escolher?</h6>
+            <p class="mb-1">
+              • Grãos selecionados e moídos na hora.
+            </p>
+            <p class="mb-1">
+              • Atendimento próximo e humanizado.
+            </p>
+            <p class="mb-0">
+              • Opções veganas e sem glúten disponíveis.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagem -->
+        <div class="col-12 col-md-6 hero-image-wrapper">
+          <img
+            class="hero-image"
+            src="https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Imagem de uma xícara de café"
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de contato simples -->
+  <section class="py-4 bg-white" id="contato">
+    <div class="container">
+      <h2 class="h4 mb-3">Contato rápido</h2>
+      <p class="mb-1">WhatsApp: (67) 99999-9999</p>
+      <p class="mb-1">Endereço: Rua Exemplo, 123 - Campo Grande/MS</p>
+      <p class="mb-0">Horário: Seg a Sáb, das 8h às 19h.</p>
+    </div>
+  </section>
+
+  <footer class="footer-mini">
+    © 2025 Cafeteria Aroma &amp; Sabor — Todos os direitos reservados.
+  </footer>
+
+  <!-- Bootstrap JS (opcional, só se usar componentes interativos) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
